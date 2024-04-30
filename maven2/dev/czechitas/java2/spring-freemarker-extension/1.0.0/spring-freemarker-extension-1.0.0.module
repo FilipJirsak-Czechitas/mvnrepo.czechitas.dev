@@ -1,0 +1,90 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.czechitas.java2",
+    "module": "spring-freemarker-extension",
+    "version": "1.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.2.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "spring-freemarker-extension-1.0.0.jar",
+          "url": "spring-freemarker-extension-1.0.0.jar",
+          "size": 5531,
+          "sha512": "b8d48ce6f681d7c9fe446e34a6d5141982fc1b94a53329b5d7bda660a9aee6333fbc18f2229c19d9df4b666b2829ba208fbfab3504fbfd80dbc3802696914d99",
+          "sha256": "14a8b623b1ee3b241f314314892346a0f1e880f3ee223f36f6f6bde35c6792b8",
+          "sha1": "c629466b2c1eb2195eb7fa4e170589dbe58031ae",
+          "md5": "65d88517c8f4ee3dd4dec41ad1f52ea6"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.springframework",
+          "module": "spring-context",
+          "version": {
+            "requires": "6.0.11"
+          }
+        },
+        {
+          "group": "org.springframework",
+          "module": "spring-context-support",
+          "version": {
+            "requires": "6.0.11"
+          }
+        },
+        {
+          "group": "org.springframework",
+          "module": "spring-webmvc",
+          "version": {
+            "requires": "6.0.11"
+          }
+        },
+        {
+          "group": "org.freemarker",
+          "module": "freemarker",
+          "version": {
+            "requires": "2.3.32"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "spring-freemarker-extension-1.0.0.jar",
+          "url": "spring-freemarker-extension-1.0.0.jar",
+          "size": 5531,
+          "sha512": "b8d48ce6f681d7c9fe446e34a6d5141982fc1b94a53329b5d7bda660a9aee6333fbc18f2229c19d9df4b666b2829ba208fbfab3504fbfd80dbc3802696914d99",
+          "sha256": "14a8b623b1ee3b241f314314892346a0f1e880f3ee223f36f6f6bde35c6792b8",
+          "sha1": "c629466b2c1eb2195eb7fa4e170589dbe58031ae",
+          "md5": "65d88517c8f4ee3dd4dec41ad1f52ea6"
+        }
+      ]
+    }
+  ]
+}

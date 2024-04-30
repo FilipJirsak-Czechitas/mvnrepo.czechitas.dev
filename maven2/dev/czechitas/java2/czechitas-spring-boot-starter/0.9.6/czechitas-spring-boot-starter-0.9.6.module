@@ -1,0 +1,104 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.czechitas.java2",
+    "module": "czechitas-spring-boot-starter",
+    "version": "0.9.6",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.2.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "czechitas-spring-boot-starter-0.9.6.jar",
+          "url": "czechitas-spring-boot-starter-0.9.6.jar",
+          "size": 7442,
+          "sha512": "3812a57a457e739ca160c51f4d223b1e49a585ad91a653c6e1a45734dc7796b5061103ee1688b00a341f15f4f4f6d566780c897985ed21850ba1073fbeb55468",
+          "sha256": "07db79a44c8c6ae9df80ae450548aa6d52cbc3b649af8cdc666a9b064ad71bc6",
+          "sha1": "e0e92aad0c254d2dc210f934b2f8cfea2ed4be98",
+          "md5": "b5dd9398432c4a9f5cd4d51fe7ef0ad4"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.springframework",
+          "module": "spring-context",
+          "version": {
+            "requires": "6.0.11"
+          }
+        },
+        {
+          "group": "org.springframework",
+          "module": "spring-context-support",
+          "version": {
+            "requires": "6.0.11"
+          }
+        },
+        {
+          "group": "org.springframework",
+          "module": "spring-webmvc",
+          "version": {
+            "requires": "6.0.11"
+          }
+        },
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-starter",
+          "version": {
+            "requires": "3.1.5"
+          }
+        },
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-starter-web",
+          "version": {
+            "requires": "3.1.5"
+          }
+        },
+        {
+          "group": "org.freemarker",
+          "module": "freemarker",
+          "version": {
+            "requires": "2.3.32"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "czechitas-spring-boot-starter-0.9.6.jar",
+          "url": "czechitas-spring-boot-starter-0.9.6.jar",
+          "size": 7442,
+          "sha512": "3812a57a457e739ca160c51f4d223b1e49a585ad91a653c6e1a45734dc7796b5061103ee1688b00a341f15f4f4f6d566780c897985ed21850ba1073fbeb55468",
+          "sha256": "07db79a44c8c6ae9df80ae450548aa6d52cbc3b649af8cdc666a9b064ad71bc6",
+          "sha1": "e0e92aad0c254d2dc210f934b2f8cfea2ed4be98",
+          "md5": "b5dd9398432c4a9f5cd4d51fe7ef0ad4"
+        }
+      ]
+    }
+  ]
+}
